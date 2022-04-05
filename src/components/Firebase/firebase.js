@@ -11,8 +11,6 @@ const firebaseConfig = {
   measurementId: process.env.REACT_APP_MEASUREMENT_ID,
 };
 
-console.log(firebaseConfig.apiKey);
-
 class Firebase {
   constructor() {
     app.initializeApp(firebaseConfig);
